@@ -1,0 +1,37 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body{
+    width:100vw;
+    height:100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+button{
+    padding: 10px;
+    background-color: red;
+    color: white;
+    border:none;
+    border-radius: 10px;
+    cursor:pointer;
+}
+
+.profile{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap:2rem;
+    flex-direction: column;
+}
+
+.profile img{
+    width:100px;
+    height: 100px;
+    object-fit: cover;
+    border-radius: 10px;
+}
